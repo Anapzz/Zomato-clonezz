@@ -1,0 +1,168 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background: url(../icons/bg\ pic.webp);
+    background-size: cover;
+    background-position: left;
+   
+}
+
+.wrapper{
+    margin-top: 150px;
+    margin-right: 20px;
+    width: 600px;
+    height: 380px;
+    padding: 50px 60px;
+    background-color: #747084;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(6, 7, 6, 0.7);
+}
+
+
+.wrapper h1{
+
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 550;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: rgb(75, 220, 49);
+    box-shadow: inset 0 0 8px rgba(254, 63, 63, 0.15);
+    border-radius:50%;
+    border-width: 50px;
+    border-color: #171713;
+
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 30px 0px;
+}
+    
+.input-box input{
+
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 20px 25px ;
+    color: rgb(246, 246, 250);
+}
+
+.input-box input::placeholder{
+
+    color: #fefe0e;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 40px;
+    
+
+}
+
+.input-box i {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-30%);
+  font-size: 22px;
+    
+}
+
+.wrapper .remember-forgot{
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    color: #f5f8f5;
+}
+
+.remember-forgot label input{
+    margin-right: 5px;
+    accent-color: #f8f5f2;
+}
+
+.remember-forgot a{
+    color: #f7f3f2;
+    text-decoration: double;
+}   
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+    color: #faf9f8;
+}
+
+.wrapper .btn{
+
+    width: 80%;
+    height: 50px;
+    background: #f154f4;
+    border: none;
+    border-radius:30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f6f8f9;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    box-shadow: inset 2px 2px rgba(16, 14, 14, 0.5);
+}
+
+.wrapper .btn:hover{
+    background: #5be479;
+    box-shadow: inset 2px 2px rgba(16, 14, 14, 0.5), 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+.wrapper .signup-link{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.signup-link p a{
+
+  color: #f5f8f5;
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.signup-link p a:hover{
+  text-decoration: wavy;
+  color: rgb(23, 22, 22);
+}
+
+.signup-link p {
+  color: #0cf378;
+  margin-right: 20px;
+  font-size: 18px; 
+  font-weight: medium;
+  font-style: italic;
+}
+
+
+
+
+
+
+
